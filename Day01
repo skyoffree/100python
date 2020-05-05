@@ -1,0 +1,36 @@
+#檢查python 版本
+目前多數人都是使用python3的版本。
+
+import sys print (sys.version_info) print (sys.version)
+
+#起手式
+print ('hello,world!')
+
+#註釋
+單行註釋- 以#和空格開頭的部分
+多行註釋- 三個引號開頭，三個引號結尾
+#註釋很重要 """ 原因是因為， 過很久以後再看程式時，能夠迅速協助恢復記憶 """
+
+#Python 的設計理念
+我喜歡這句，九局下半兩好三壞才是球賽關鍵，把握每個當下比沒有開始的好。
+
+Now is better than never.
+
+import this
+
+#螢幕上繪圖-turtle
+`
+import turtle
+
+turtle . pensize(4)
+turtle . pencolor('red')
+turtle . forward ( 100 )
+turtle . right ( 90 )
+turtle . forward ( 100 )
+turtle . right ( 90 )
+turtle . forward ( 100 )
+turtle . right ( 90 )
+turtle . forward ( 100 )
+turtle . mainloop ()
+`
+可以劃出一個紅色正方型。
